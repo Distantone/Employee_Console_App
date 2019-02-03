@@ -1,0 +1,33 @@
+#pragma once
+#include "Employee.h"
+
+	int  const MIN_MANAGEMENT_LEVEL = 0;
+	int	 const MAX_MANAGEMENT_LEVEL = 3;
+	double  const BONUS_PERCENT = .10;
+	
+class Salaried : public Employee
+{
+public:
+	Salaried():Employee(){}
+	
+	Salaried::Salaried(string in_First, string in_Last, char in_Gender, int in_Dependents, double in_Salary,Benefit passed_Benefit, int in_manLevel);	
+
+	Salaried(double in_Salary, int in_manLevel);
+
+
+	double setAnnualSalary(double in_Salary);
+	int getManagementLevel();		//returns managementLevel;
+	int setManagementLevel(int in_manLevel);		//managementLevel = in_manLevel returns managementLevel;
+
+	
+	 double calculatePay();
+	
+	 void displayEmployee();
+
+	~Salaried();
+
+	private:
+		int managementLevel;
+
+};
+

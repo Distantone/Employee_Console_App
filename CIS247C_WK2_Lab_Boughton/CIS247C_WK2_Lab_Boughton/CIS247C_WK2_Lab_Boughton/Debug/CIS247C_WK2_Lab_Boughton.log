@@ -1,0 +1,98 @@
+﻿Build started 6/7/2017 10:08:45 PM.
+     1>Project "C:\Users\dista\Documents\Visual Studio 2012\Projects\CIS247C_WK2_Lab_Boughton\CIS247C_WK2_Lab_Boughton\CIS247C_WK2_Lab_Boughton.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Employee.cpp Hourly.cpp Salaried.cpp Source.cpp
+         Source.cpp
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(21): error C2864: 'Hourly::MIN_WAGE' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(22): error C2864: 'Hourly::MAX_WAGE' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(23): error C2864: 'Hourly::MIN_HOURS' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(24): error C2864: 'Hourly::MAX_HOURS' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(31): error C2864: 'Salaried::MIN_MANAGEMENT_LEVEL' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(32): error C2864: 'Salaried::MAX_MANAGEMENT_LEVEL' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(33): error C2864: 'Salaried::BONUS_PERCENT' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\source.cpp(42): error C2259: 'Employee' : cannot instantiate abstract class
+                 due to following members:
+                 'double Employee::calculatePay(void)' : is abstract
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\employee.h(54) : see declaration of 'Employee::calculatePay'
+                 'void Employee::displayEmployee(void)' : is abstract
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\employee.h(55) : see declaration of 'Employee::displayEmployee'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\source.cpp(60): error C2039: 'salaried' : is not a member of 'Employee'
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\employee.h(18) : see declaration of 'Employee'
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\employee.h(18) : see declaration of 'Employee'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\source.cpp(60): error C2228: left of '.setAnnualSalary' must have class/struct/union
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\source.cpp(62): error C2039: 'hourly' : is not a member of 'Employee'
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\employee.h(18) : see declaration of 'Employee'
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\employee.h(18) : see declaration of 'Employee'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\source.cpp(62): error C2228: left of '.calculatePay' must have class/struct/union
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\source.cpp(92): error C2259: 'Employee' : cannot instantiate abstract class
+                 due to following members:
+                 'double Employee::calculatePay(void)' : is abstract
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\employee.h(54) : see declaration of 'Employee::calculatePay'
+                 'void Employee::displayEmployee(void)' : is abstract
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\employee.h(55) : see declaration of 'Employee::displayEmployee'
+         Salaried.cpp
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(21): error C2864: 'Hourly::MIN_WAGE' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(22): error C2864: 'Hourly::MAX_WAGE' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(23): error C2864: 'Hourly::MIN_HOURS' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(24): error C2864: 'Hourly::MAX_HOURS' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(31): error C2864: 'Salaried::MIN_MANAGEMENT_LEVEL' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(32): error C2864: 'Salaried::MAX_MANAGEMENT_LEVEL' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(33): error C2864: 'Salaried::BONUS_PERCENT' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.cpp(5): error C2758: 'Salaried::MIN_MANAGEMENT_LEVEL' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(31) : see declaration of 'Salaried::MIN_MANAGEMENT_LEVEL'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.cpp(5): error C2758: 'Salaried::MAX_MANAGEMENT_LEVEL' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(32) : see declaration of 'Salaried::MAX_MANAGEMENT_LEVEL'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.cpp(5): error C2758: 'Salaried::BONUS_PERCENT' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(33) : see declaration of 'Salaried::BONUS_PERCENT'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.cpp(9): error C2758: 'Salaried::MIN_MANAGEMENT_LEVEL' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(31) : see declaration of 'Salaried::MIN_MANAGEMENT_LEVEL'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.cpp(9): error C2758: 'Salaried::MAX_MANAGEMENT_LEVEL' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(32) : see declaration of 'Salaried::MAX_MANAGEMENT_LEVEL'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.cpp(9): error C2758: 'Salaried::BONUS_PERCENT' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(33) : see declaration of 'Salaried::BONUS_PERCENT'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.cpp(27): error C2758: 'Salaried::MIN_MANAGEMENT_LEVEL' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(31) : see declaration of 'Salaried::MIN_MANAGEMENT_LEVEL'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.cpp(27): error C2758: 'Salaried::MAX_MANAGEMENT_LEVEL' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(32) : see declaration of 'Salaried::MAX_MANAGEMENT_LEVEL'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.cpp(27): error C2758: 'Salaried::BONUS_PERCENT' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(33) : see declaration of 'Salaried::BONUS_PERCENT'
+         Hourly.cpp
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(31): error C2864: 'Salaried::MIN_MANAGEMENT_LEVEL' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(32): error C2864: 'Salaried::MAX_MANAGEMENT_LEVEL' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(33): error C2864: 'Salaried::BONUS_PERCENT' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(21): error C2864: 'Hourly::MIN_WAGE' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(22): error C2864: 'Hourly::MAX_WAGE' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(23): error C2864: 'Hourly::MIN_HOURS' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(24): error C2864: 'Hourly::MAX_HOURS' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.cpp(5): error C2758: 'Hourly::MIN_WAGE' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(21) : see declaration of 'Hourly::MIN_WAGE'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.cpp(5): error C2758: 'Hourly::MAX_WAGE' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(22) : see declaration of 'Hourly::MAX_WAGE'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.cpp(5): error C2758: 'Hourly::MIN_HOURS' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(23) : see declaration of 'Hourly::MIN_HOURS'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.cpp(5): error C2758: 'Hourly::MAX_HOURS' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(24) : see declaration of 'Hourly::MAX_HOURS'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.cpp(9): error C2758: 'Hourly::MIN_WAGE' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(21) : see declaration of 'Hourly::MIN_WAGE'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.cpp(9): error C2758: 'Hourly::MAX_WAGE' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(22) : see declaration of 'Hourly::MAX_WAGE'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.cpp(9): error C2758: 'Hourly::MIN_HOURS' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(23) : see declaration of 'Hourly::MIN_HOURS'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.cpp(9): error C2758: 'Hourly::MAX_HOURS' : must be initialized in constructor base/member initializer list
+                 c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(24) : see declaration of 'Hourly::MAX_HOURS'
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.cpp(23): error C3861: 'setprecision': identifier not found
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.cpp(24): error C3861: 'setprecision': identifier not found
+         Employee.cpp
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(21): error C2864: 'Hourly::MIN_WAGE' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(22): error C2864: 'Hourly::MAX_WAGE' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(23): error C2864: 'Hourly::MIN_HOURS' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\hourly.h(24): error C2864: 'Hourly::MAX_HOURS' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(31): error C2864: 'Salaried::MIN_MANAGEMENT_LEVEL' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(32): error C2864: 'Salaried::MAX_MANAGEMENT_LEVEL' : only static const integral data members can be initialized within a class
+     1>c:\users\dista\documents\visual studio 2012\projects\cis247c_wk2_lab_boughton\cis247c_wk2_lab_boughton\salaried.h(33): error C2864: 'Salaried::BONUS_PERCENT' : only static const integral data members can be initialized within a class
+         Generating Code...
+     1>Done Building Project "C:\Users\dista\Documents\Visual Studio 2012\Projects\CIS247C_WK2_Lab_Boughton\CIS247C_WK2_Lab_Boughton\CIS247C_WK2_Lab_Boughton.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.96
